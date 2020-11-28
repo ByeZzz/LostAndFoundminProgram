@@ -1,0 +1,14 @@
+<van-search
+
+  placeholder="请输入搜索关键词"
+  shape="round"
+  input-align="center"
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+  value="haha"
+   />
+<van-tabs  color="#e9745a" swipeable="true" active="{{ active }}" type="card" >
+  <van-tab  title="寻物启事"></van-tab>
+  <van-tab  title="招领启事"></van-tab>
+  <van-tab  title="筛选"></van-tab>
+</van-tabs>

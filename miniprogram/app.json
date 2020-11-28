@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/publish/publish",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e9745a",
+    "navigationBarTitleText": "SWJTU失物招领",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor":"#E54847",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text":"首页",
+      "iconPath":"images/首页.png",
+      "selectedIconPath":"images/首页2.png"
+    },{
+      "pagePath": "pages/publish/publish",
+      "text":"发布",
+      "iconPath":"images/发布.png",
+      "selectedIconPath":"images/发布2.png"
+    },{
+      "pagePath": "pages/publish/publish",
+      "text":"我的",
+      "iconPath":"images/我的.png",
+      "selectedIconPath":"images/我的2.png"
+    }
+  ] 
+  },
+  "sitemapLocation": "sitemap.json"
+}
