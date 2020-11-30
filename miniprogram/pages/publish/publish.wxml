@@ -1,2 +1,16 @@
 <!--pages/publish/publish.wxml-->
 
+<<<<<<< HEAD
+=======
+  <view class="all">
+    <van-grid square="true" column-num="2">
+      <van-grid-item use-slot text="文字">
+        <image style="width: 60rpx; height: 60rpx;" src="image/寻物启事.png" />
+        文本111222333444
+      </van-grid-item>
+      <van-grid-item icon="./image/寻物启事" text="文字" />
+    </van-grid>
+  </view>
+
+</view>
+>>>>>>> 666
